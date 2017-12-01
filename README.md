@@ -54,5 +54,22 @@ public class MainActivity extends AppCompatActivity {
 
 }
 ```
+## 项目中使用
 
+Add it in your root build.gradle at the end of repositories:
+```xml
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+Add the dependency
+```xml
+dependencies {
+	        compile 'com.github.SmilingBoy:PicturePrevious:v1.0'
+	}
+```
 
